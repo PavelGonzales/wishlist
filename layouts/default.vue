@@ -1,17 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar
-      fixed
-      app
-    >
-      <v-toolbar-title>{{ title }}</v-toolbar-title>
-      <v-spacer />
-      <v-btn
-        icon
-      >
-        <v-icon>mdi-menu</v-icon>
-      </v-btn>
-    </v-app-bar>
+    <Header />
 
     <v-main>
       <v-container>
@@ -26,11 +15,13 @@
 </template>
 
 <script>
+import Header from '~/components/Header.vue';
+
 export default {
-  data () {
-    return {
-      title: 'Pavel Gonzales WishList'
-    }
-  }
+  name: 'LayoutDefault',
+
+  components: {
+    Header,
+  },
 }
 </script>

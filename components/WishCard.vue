@@ -10,11 +10,12 @@
         </v-avatar>
           <v-rating
             :value="item.rating"
-            color="amber"
+            color="purple"
+            background-color="grey"
             dense
             half-increments
             readonly
-            size="14"
+            size="20"
             class="mb-2"
           />
 
