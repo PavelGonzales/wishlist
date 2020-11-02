@@ -37,7 +37,7 @@
       </div>
     
 
-      <div>
+      <div class="w-100">
         <v-card-title class="headline">
           <div class="caption text--disabled w-100">Название</div>
           {{ item.title }}
