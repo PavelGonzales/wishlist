@@ -1,6 +1,6 @@
 <template>
   <v-row justify="center" align="center">
-    <v-col cols="12" sm="8" md="6">
+    <v-col cols="12" sm="10" md="8" lg="6">
       <WishCard
         v-for="item in wishlistMock.list"
         :key="item.id"
@@ -12,13 +12,11 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
 import WishCard from '~/components/WishCard.vue';
 import wishlistMock from '~/mocks/wishlist';
 
 export default {
   components: {
-    Logo,
     WishCard,
   },
 

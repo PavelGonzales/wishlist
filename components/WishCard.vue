@@ -1,7 +1,7 @@
 <template>
   <v-card class="rounded-lg elevation-1">
-    <div class="d-flex flex-no-wrap">
-      <div class="mt-5 ml-5">
+    <div class="d-flex flex-wrap justify-center flex-sm-nowrap">
+      <div class="pt-5 pl-5 pr-5 pr-sm-0 align-center d-flex flex-column">
         <v-avatar
           size="125"
           tile
